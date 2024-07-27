@@ -1,0 +1,83 @@
+/*
+body {
+    background-color: blue!important;
+}
+*/
+
+.enlace {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.enlace:hover {
+    background-color: #f6a0ac;
+}
+
+.qwerty:hover {
+    background-color: #f6a0ac;
+}
+
+
+
+
+@media only screen and (max-width:480px) {
+    /* Pantallas de 350px, 450px 479px */
+    body {
+        background-color: blue;
+    }
+} 
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+    /* Pantallas de tablet */
+    body {
+        background-color: yellow;
+    }
+} 
+
+
+
+h1 {
+    font-family: "Merriweather", serif;
+}
+
+header {
+    /*este es un comentario*/
+    background-color: blue;
+    color: white;text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+main {
+    padding: 20px;
+    margin: 20px;
+    background: white;
+    
+    -webkit-box-shadow: 16px -12px 18px -7px rgba(0,0,0,0.47);
+    -moz-box-shadow: 16px -12px 18px -7px rgba(0,0,0,0.47);
+    box-shadow: 16px -12px 18px -7px rgba(0,0,0,0.47);
+}
+
+
+
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav {
+    background: #ef5a6f;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    
+}
